@@ -37,32 +37,75 @@ ul li:active{
 
 .header{
     background-color: aqua;
-    height: 40vh;
+    height: 45vh;
 }
 
 .header h1{
-    padding: 10rem 40rem ;
-    align-items: center;
+    padding: 10vw 0vw 0vw 0vw;
 }
 
 .content{
     background-color: brown;
-    height:45vh ;
+    height:50vh ;
 }
 
 .content h1{
-    padding: 12rem 40rem;
-    align-items: center;
+    padding: 10vw 0vw 0vw 0vw;
 }
 
 .footer{
     background-color: blueviolet;
-    height: 50vh;
+    height: 58vh;
 }
 
 .footer h1{
-    padding: 10rem 40rem;
-    align-items: center;
+    padding: 10vw 0vw 0vw 0vw;
+}
+
+.main{
+    display: flex;
+    width: 100vw;
+}
+
+.main-one{
+    float: left;
+    width: 80vw;
+}
+
+.main-two{
+    float: right;
+    width: 15vw;
+    height: 140vh;
+    background-color: gray;
+    margin-left:2vw ;
+    margin-top: 6vw;
+    box-shadow: 0px 3px 10px 10px;
+    border-radius: 10px;
+    padding: 0vw 0vw 0vw 3vw;
+}
+
+.image{
+    padding: 3px;
+    box-shadow: 0px 3px 6px 6px;
+    border-radius: 10px;
+    width: 10vw;
+    height: 17vw;
+    margin-top: 2vw;
+}
+
+button{
+    box-shadow: 0px 3px 6px 0px;
+    border-radius: 5px;
+    width: 10vw;
+}
+
+button:hover{
+    color:blue ;
+    cursor: pointer;
+}
+
+button:active{
+    color: gray;
 }
 
 
